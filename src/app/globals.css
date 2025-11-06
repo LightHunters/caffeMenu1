@@ -1,8 +1,48 @@
 @import 'tailwindcss';
 
+:root {
+  --bg-primary: oklch(18.72% 0.002 286.2);
+  --bg-search: oklch(47.84% 0 0);
+  --text-secondary: oklch(65.34% 0 0);
+  --text-hover: oklch(78.91% 0.1213 60.2);
+  --text-primary: oklch(94.61% 0 0);
+
+  /* Radius */
+  --radius-search: 30px;
+  --radius-box: 8px;
+  --radius-image: 15px;
+
+  /* Shadow */
+  --shadow-x: 0;
+  --shadow-y: 17.49px;
+  --shadow-blur: 31.1px;
+  --shadow-spread: 0;
+  --shadow-color: rgba(0, 0, 0, 0.58);
+  --shadow: var(--shadow-x) var(--shadow-y) var(--shadow-blur)
+    var(--shadow-spread) var(--shadow-color);
+}
+
+@theme {
+  --color-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-search: var(--bg-search);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-hover: var(--text-hover);
+  --color-text-primary: var(--text-primary);
+  --radius-search: var(--radius-search);
+  --radius-box: var(--radius-box);
+  --radius-image: var(--radius-image);
+  --shadow: var(--shadow);
+  --shadow-drop: var(--shadow-x) var(--shadow-y) var(--shadow-blur);
+}
+
 @layer base {
   :root {
     --font-dana: var(--font-dana);
+  }
+  :lang(en) {
     --font-fira-sans: var(--font-fira-sans);
   }
 }
