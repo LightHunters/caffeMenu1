@@ -94,8 +94,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={`${dana.variable} ${firaSans.variable} `}>
+    <html lang='fa' dir='rtl'>
+      <body
+        className={`${dana.variable} ${firaSans.variable} bg-bg-primary  min-h-screen`}
+      >
         <UIProviders>{children}</UIProviders>
       </body>
     </html>

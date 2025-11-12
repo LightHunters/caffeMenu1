@@ -1,12 +1,11 @@
-'use client'
+'use client';
 
-
-import { Button } from '@heroui/react';
+import { CustomLink } from '@/components/CustomLink';
 
 export default function Home() {
   return (
-    <div>
-      <Button  >hello</Button>
+    <div className='p-8'>
+      <CustomLink href='#'>لینک</CustomLink>
     </div>
   );
 }
