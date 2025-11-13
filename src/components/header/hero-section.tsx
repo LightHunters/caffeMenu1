@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import MenuIcon from '@/../public/icons/menu.svg';
+import MenuHamburger from './menu-hamburger';
 import LogoIcon from '@/../public/icons/logo.svg';
 import InstagramIcon from '@/../public/icons/instagram.svg';
 import TelegramIcon from '@/../public/icons/telegram.svg';
@@ -34,7 +34,7 @@ const HeroSection = () => {
       <div className='w-full'>
         <div className='flex items-center justify-between'>
           <div className='self-start'>
-            <MenuIcon className='w-6 h-6 fill-white' />
+            <MenuHamburger />
           </div>
           <div className='flex items-center justify-baseline gap-2'>
             <p className='text-white font-medium'>کافه خیابان آرام</p>
