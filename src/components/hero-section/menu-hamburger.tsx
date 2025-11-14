@@ -1,16 +1,23 @@
 'use client';
 
-import {
-  Drawer,
-  DrawerContent,
-  DrawerHeader,
-  DrawerBody,
-  useDisclosure,
-} from '@heroui/react';
+import { Drawer, DrawerContent, DrawerHeader, DrawerBody } from '@heroui/react';
 import { Button } from '@/components/CustomButton';
 import MenuIcon from '@/../public/icons/menu.svg';
 import MenuCloseIcon from '@/../public/icons/menu.svg';
+import { useMenuStore } from '@/store';
 
+// Mapping بین نام فارسی و categoryId
+const categoryNameToId: Record<string, string> = {
+  اسپرسو: 'espresso',
+  'نوشیدنی گرم': 'hot-drinks',
+  'قهوه سرد': 'cold-coffee',
+  شیک: 'shakes',
+  'نوشیدنی سرد': 'cold-drinks',
+  'چای و دمنوش': 'tea',
+  بستنی: 'ice-cream',
+};
+
+// لیست دسته‌بندی‌ها برای نمایش در drawer
 const menuCategories = [
   'اسپرسو',
   'نوشیدنی گرم',
@@ -21,22 +28,26 @@ const menuCategories = [
   'بستنی',
 ];
 
-interface MenuHamburgerProps {
-  onCategorySelect?: (category: string) => void;
-}
+const MenuHamburger = () => {
+  const {
+    isMenuDrawerOpen,
+    openMenuDrawer,
+    closeMenuDrawer,
+    selectCategoryAndShowProducts,
+  } = useMenuStore();
 
-const MenuHamburger = ({ onCategorySelect }: MenuHamburgerProps) => {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
-  const handleCategoryClick = (category: string) => {
-    onCategorySelect?.(category);
-    onOpenChange();
+  const handleCategoryClick = (categoryName: string) => {
+    const categoryId = categoryNameToId[categoryName];
+    if (categoryId) {
+      selectCategoryAndShowProducts(categoryId);
+      closeMenuDrawer();
+    }
   };
 
   return (
     <>
       <button
-        onClick={onOpen}
+        onClick={openMenuDrawer}
         className='p-2 hover:bg-white/10 rounded-lg transition-colors'
         aria-label='باز کردن منو'
       >
@@ -44,8 +55,14 @@ const MenuHamburger = ({ onCategorySelect }: MenuHamburgerProps) => {
       </button>
 
       <Drawer
-        isOpen={isOpen}
-        onOpenChange={onOpenChange}
+        isOpen={isMenuDrawerOpen}
+        onOpenChange={isOpen => {
+          if (isOpen) {
+            openMenuDrawer();
+          } else {
+            closeMenuDrawer();
+          }
+        }}
         placement='right'
         size='md'
         hideCloseButton

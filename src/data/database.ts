@@ -191,6 +191,8 @@ export const products: Product[] = [
     categoryId: 'espresso',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80',
     sizes: {
       small: 40000,
       medium: 45000,
@@ -206,6 +208,8 @@ export const products: Product[] = [
     price: 70000,
     categoryId: 'espresso',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=800&q=80',
     tags: ['قوی'],
   },
   {
@@ -217,6 +221,8 @@ export const products: Product[] = [
     categoryId: 'espresso',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80',
     sizes: {
       small: 45000,
       medium: 50000,
@@ -233,6 +239,8 @@ export const products: Product[] = [
     categoryId: 'espresso',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80',
     sizes: {
       small: 60000,
       medium: 65000,
@@ -252,6 +260,8 @@ export const products: Product[] = [
     categoryId: 'espresso',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
     sizes: {
       small: 65000,
       medium: 70000,
@@ -270,6 +280,8 @@ export const products: Product[] = [
     price: 60000,
     categoryId: 'espresso',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80',
     sizes: {
       small: 55000,
       medium: 60000,
@@ -285,6 +297,8 @@ export const products: Product[] = [
     categoryId: 'espresso',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 75000,
       medium: 80000,
@@ -306,6 +320,8 @@ export const products: Product[] = [
     categoryId: 'hot-drinks',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80',
     tags: ['سنتی'],
   },
   {
@@ -316,6 +332,8 @@ export const products: Product[] = [
     price: 60000,
     categoryId: 'hot-drinks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=800&q=80',
     sizes: {
       small: 55000,
       medium: 60000,
@@ -331,6 +349,8 @@ export const products: Product[] = [
     categoryId: 'hot-drinks',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 65000,
       medium: 70000,
@@ -346,6 +366,8 @@ export const products: Product[] = [
     price: 75000,
     categoryId: 'hot-drinks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80',
     sizes: {
       small: 70000,
       medium: 75000,
@@ -383,6 +405,8 @@ export const products: Product[] = [
     categoryId: 'cold-coffee',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=400&fit=crop',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -399,6 +423,8 @@ export const products: Product[] = [
     categoryId: 'cold-coffee',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=400&h=400&fit=crop',
     sizes: {
       small: 65000,
       medium: 70000,
@@ -417,6 +443,8 @@ export const products: Product[] = [
     price: 50000,
     categoryId: 'cold-coffee',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop',
     sizes: {
       small: 45000,
       medium: 50000,
@@ -432,6 +460,8 @@ export const products: Product[] = [
     categoryId: 'cold-coffee',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&h=400&fit=crop',
     sizes: {
       small: 60000,
       medium: 65000,
@@ -448,6 +478,8 @@ export const products: Product[] = [
     categoryId: 'cold-coffee',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=400&fit=crop',
     sizes: {
       small: 75000,
       medium: 80000,
@@ -466,7 +498,7 @@ export const products: Product[] = [
     isNew: true,
     ingredients: ['شیر', 'اسپرسو'],
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=400&h=400&fit=crop',
     sizes: {
       small: 130000,
       medium: 140000,
@@ -485,6 +517,8 @@ export const products: Product[] = [
     categoryId: 'shakes',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['وانیل'],
   },
   {
@@ -496,6 +530,8 @@ export const products: Product[] = [
     categoryId: 'shakes',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['شکلاتی'],
   },
   {
@@ -507,6 +543,8 @@ export const products: Product[] = [
     categoryId: 'shakes',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['میوه‌ای'],
   },
   {
@@ -517,6 +555,8 @@ export const products: Product[] = [
     price: 90000,
     categoryId: 'shakes',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['میوه‌ای'],
   },
   {
@@ -527,6 +567,8 @@ export const products: Product[] = [
     price: 95000,
     categoryId: 'shakes',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['کارامل'],
   },
   {
@@ -537,6 +579,8 @@ export const products: Product[] = [
     price: 95000,
     categoryId: 'shakes',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['قهوه‌ای'],
   },
   {
@@ -564,6 +608,8 @@ export const products: Product[] = [
     categoryId: 'cold-drinks',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     sizes: {
       small: 55000,
       medium: 60000,
@@ -579,6 +625,8 @@ export const products: Product[] = [
     price: 60000,
     categoryId: 'cold-drinks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     sizes: {
       small: 55000,
       medium: 60000,
@@ -595,6 +643,8 @@ export const products: Product[] = [
     categoryId: 'cold-drinks',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -629,6 +679,8 @@ export const products: Product[] = [
     price: 80000,
     categoryId: 'cold-drinks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     sizes: {
       small: 75000,
       medium: 80000,
@@ -647,6 +699,8 @@ export const products: Product[] = [
     categoryId: 'tea',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['سنتی'],
   },
   {
@@ -657,6 +711,8 @@ export const products: Product[] = [
     price: 35000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['طبیعی'],
   },
   {
@@ -667,6 +723,8 @@ export const products: Product[] = [
     price: 40000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
   },
   {
     id: 'tea-4',
@@ -676,6 +734,8 @@ export const products: Product[] = [
     price: 40000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['آرامش‌بخش'],
   },
   {
@@ -686,6 +746,8 @@ export const products: Product[] = [
     price: 40000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['نعناعی'],
   },
   {
@@ -696,6 +758,8 @@ export const products: Product[] = [
     price: 40000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['گرم'],
   },
   {
@@ -706,6 +770,8 @@ export const products: Product[] = [
     price: 45000,
     categoryId: 'tea',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     sizes: {
       small: 40000,
       medium: 45000,
@@ -738,6 +804,8 @@ export const products: Product[] = [
     categoryId: 'ice-cream',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 45000,
       medium: 50000,
@@ -754,6 +822,8 @@ export const products: Product[] = [
     categoryId: 'ice-cream',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -769,6 +839,8 @@ export const products: Product[] = [
     price: 55000,
     categoryId: 'ice-cream',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -784,6 +856,8 @@ export const products: Product[] = [
     price: 55000,
     categoryId: 'ice-cream',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -799,6 +873,8 @@ export const products: Product[] = [
     price: 60000,
     categoryId: 'ice-cream',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 55000,
       medium: 60000,
@@ -817,6 +893,8 @@ export const products: Product[] = [
     categoryId: 'desserts',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['خامه‌ای'],
   },
   {
@@ -828,6 +906,8 @@ export const products: Product[] = [
     categoryId: 'desserts',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['شکلاتی'],
   },
   {
@@ -839,6 +919,8 @@ export const products: Product[] = [
     categoryId: 'desserts',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     tags: ['ایتالیایی'],
   },
   {
@@ -849,6 +931,8 @@ export const products: Product[] = [
     price: 100000,
     categoryId: 'desserts',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&q=80',
     sizes: {
       small: 80000,
       medium: 100000,
@@ -867,6 +951,8 @@ export const products: Product[] = [
     categoryId: 'breakfast',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['کامل'],
   },
   {
@@ -877,6 +963,8 @@ export const products: Product[] = [
     price: 120000,
     categoryId: 'breakfast',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['تخم مرغ'],
   },
   {
@@ -888,6 +976,8 @@ export const products: Product[] = [
     categoryId: 'breakfast',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['شیرین'],
   },
 
@@ -901,6 +991,8 @@ export const products: Product[] = [
     categoryId: 'sandwiches',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['مرغ'],
   },
   {
@@ -912,6 +1004,8 @@ export const products: Product[] = [
     categoryId: 'sandwiches',
     isAvailable: true,
     isPopular: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['گوشت'],
   },
   {
@@ -922,6 +1016,8 @@ export const products: Product[] = [
     price: 120000,
     categoryId: 'sandwiches',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
     tags: ['پنیر'],
   },
 
@@ -934,6 +1030,8 @@ export const products: Product[] = [
     price: 40000,
     categoryId: 'snacks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
   },
   {
     id: 'snack-2',
@@ -943,6 +1041,8 @@ export const products: Product[] = [
     price: 35000,
     categoryId: 'snacks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
   },
   {
     id: 'snack-3',
@@ -952,6 +1052,8 @@ export const products: Product[] = [
     price: 30000,
     categoryId: 'snacks',
     isAvailable: true,
+    image:
+      'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80',
   },
 ];
 

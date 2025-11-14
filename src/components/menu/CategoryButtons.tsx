@@ -4,18 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode } from 'swiper/modules';
 import { Button } from '@/components/CustomButton';
 import { categories } from '@/data/database';
+import { useMenuStore } from '@/store';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-interface CategoryButtonsProps {
-  onCategorySelect?: (categoryId: string) => void;
-  selectedCategory?: string;
-}
+const CategoryButtons = () => {
+  const { selectedCategory, selectCategoryAndShowProducts } = useMenuStore();
 
-const CategoryButtons = ({
-  onCategorySelect,
-  selectedCategory = 'hot-drinks',
-}: CategoryButtonsProps) => {
   // دسته‌بندی‌های اصلی برای نمایش
   const mainCategories = categories
     .filter(cat =>
@@ -33,7 +28,7 @@ const CategoryButtons = ({
         className='category-buttons-swiper'
       >
         {mainCategories.map(category => (
-          <SwiperSlide key={category.id} className='!w-auto'>
+          <SwiperSlide key={category.id} className='w-auto!'>
             <Button
               color={
                 selectedCategory === category.id
@@ -43,7 +38,7 @@ const CategoryButtons = ({
               variant='solid'
               size='md'
               className='whitespace-nowrap shrink-0'
-              onPress={() => onCategorySelect?.(category.id)}
+              onPress={() => selectCategoryAndShowProducts(category.id)}
             >
               {category.name}
             </Button>
