@@ -339,4 +339,27 @@
     align-items: stretch;
     display: flex;
   }
+
+  .special-offers-swiper {
+    padding-bottom: 40px;
+  }
+
+  .special-offers-swiper .swiper-pagination {
+    bottom: 12px;
+  }
+
+  .special-offers-swiper .swiper-pagination-bullet {
+    width: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+    transition: all 0.3s;
+  }
+
+  .special-offers-swiper
+    .swiper-pagination-bullet-active-special {
+    background: rgba(0, 0, 0, 0.8);
+    width: 32px;
+  }
 }

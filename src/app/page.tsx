@@ -6,6 +6,7 @@ import CategorySwiper from '@/components/menu/CategorySwiper';
 import CategoryButtons from '@/components/menu/CategoryButtons';
 import ProductList from '@/components/menu/ProductList';
 import PopularProducts from '@/components/menu/PopularProducts';
+import SpecialOffers from '@/components/menu/SpecialOffers';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] =
@@ -34,6 +35,7 @@ export default function Home() {
         <>
           <CategorySwiper />
           <PopularProducts />
+          <SpecialOffers />
         </>
       )}
     </div>
