@@ -5,6 +5,7 @@ import HeroSection from '@/components/hero-section/hero-section';
 import CategorySwiper from '@/components/menu/CategorySwiper';
 import CategoryButtons from '@/components/menu/CategoryButtons';
 import ProductList from '@/components/menu/ProductList';
+import PopularProducts from '@/components/menu/PopularProducts';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] =
@@ -30,7 +31,10 @@ export default function Home() {
       {showProducts ? (
         <ProductList categoryId={selectedCategory} onBack={handleBack} />
       ) : (
-        <CategorySwiper />
+        <>
+          <CategorySwiper />
+          <PopularProducts />
+        </>
       )}
     </div>
   );

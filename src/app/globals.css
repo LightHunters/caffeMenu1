@@ -325,4 +325,18 @@
   .category-buttons-swiper .swiper-wrapper {
     align-items: center;
   }
+
+  .popular-products-swiper {
+    padding-bottom: 0;
+  }
+
+  .popular-products-swiper .swiper-slide {
+    height: auto;
+    display: flex;
+  }
+
+  .popular-products-swiper .swiper-wrapper {
+    align-items: stretch;
+    display: flex;
+  }
 }
