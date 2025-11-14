@@ -406,7 +406,7 @@ export const products: Product[] = [
     isAvailable: true,
     isPopular: true,
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=400&fit=crop',
     sizes: {
       small: 50000,
       medium: 55000,
@@ -424,7 +424,7 @@ export const products: Product[] = [
     isAvailable: true,
     isPopular: true,
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=400&h=400&fit=crop',
     sizes: {
       small: 65000,
       medium: 70000,
@@ -444,7 +444,7 @@ export const products: Product[] = [
     categoryId: 'cold-coffee',
     isAvailable: true,
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop',
     sizes: {
       small: 45000,
       medium: 50000,
@@ -461,7 +461,7 @@ export const products: Product[] = [
     isAvailable: true,
     isPopular: true,
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&h=400&fit=crop',
     sizes: {
       small: 60000,
       medium: 65000,
@@ -479,7 +479,7 @@ export const products: Product[] = [
     isAvailable: true,
     isPopular: true,
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=400&fit=crop',
     sizes: {
       small: 75000,
       medium: 80000,
@@ -498,7 +498,7 @@ export const products: Product[] = [
     isNew: true,
     ingredients: ['شیر', 'اسپرسو'],
     image:
-      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=800&q=80',
+      'https://images.unsplash.com/photo-1461023058943-07fcbe16d635?w=400&h=400&fit=crop',
     sizes: {
       small: 130000,
       medium: 140000,
