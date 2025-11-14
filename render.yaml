@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: caffe-menu
+    env: node
+    buildCommand: bun install && bun run build
+    startCommand: bun run start
+    envVars:
+      - key: NODE_ENV
+        value: production
